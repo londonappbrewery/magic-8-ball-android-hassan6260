@@ -15,12 +15,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txtView"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="50dp"
+        android:text="@string/txtView"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:background="@drawable/textview_round"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -32,12 +34,14 @@
 
     <Button
         android:id="@+id/askButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="61dp"
-        android:background="#3F51B5"
+        android:background="@drawable/button_round"
         android:text="@string/askButton"
         android:textColor="#ffffff" />
 </RelativeLayout>
